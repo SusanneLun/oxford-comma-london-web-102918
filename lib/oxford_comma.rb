@@ -4,7 +4,9 @@ array.join
 elsif array.length == 2 
 array.join(" and ") 
 else 
-array.join(", ") + "and #{array[-1]}"
+string1 = array.join(", ")
+string1.push
+
 end
 end
 
