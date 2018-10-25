@@ -9,4 +9,5 @@ array[-1] = "and #{array[-1]}"
 else
   array.split(",")
 end
+end
 
